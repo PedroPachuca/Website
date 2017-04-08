@@ -61,7 +61,7 @@ body p {
 }
 body .hero-unit {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #C0C0C0;
 }
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -128,6 +128,9 @@ hr {
 .container .social-icon.youtube {
   background-image: url("../img/social-youtube.png");
 }
+.container .social-icon.github {
+	background-image: url("../img/social-github.png");
+}
 .container .social-icon.vimeo {
   background-image: url("../img/social-vimeo.png");
 }
@@ -151,10 +154,12 @@ hr {
   line-height: 1.5em;
 }
 .container .navbar-inner {
-  background: url(../img/tex2res4.png);
+/*  background: url(../img/tex2res4.png);*/
+	background: #000;
+  
 }
 .container .navbar-inner .important {
-  color: #fe57a1;
+   color: #fe57a1;
 }
 .container .navbar-inner .dropdown-menu {
   background: #fff;
@@ -184,14 +189,14 @@ hr {
   line-height: 1.2em;
 }
 .container .information .experience-table .date {
-  color: #888888;
+  color: #fff;
   font-size: 14px;
   display: block;
   margin-bottom: 6px;
 }
 .container .information .experience-table small {
   display: block;
-  color: #fe57a1;
+  color: #fff;
   font-size: 14px;
 }
 .container .information .experience-table td:first-child {
@@ -205,7 +210,7 @@ hr {
   line-height: 1.1em;
 }
 .container .information .listing .entry .date {
-  color: #888888;
+  color: #fff;
   font-size: 14px;
   display: block;
   margin-bottom: 6px;
