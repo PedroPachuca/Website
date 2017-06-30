@@ -57,6 +57,7 @@
 						<li class="active"><a href="#top-section">Top</a></li>
 						<li><a href="#info-section">About Me</a></li>
 						<li><a href="#philosophy-section">Philosophy</a></li>
+            <li><a href="#chess-section">Chess Widgets</a><li>
 						<li><a href="#contact-section">Contact</a></li>
 					</ul><!-- ENDS main nav -->
 
@@ -391,7 +392,7 @@
 
     <section id="philosophy-section">
       <div  class="page-header">
-			  <h1 class="headers"> My Philosophy&nbsp;</h1>
+			  <h1 class="headers"> My Philosophy</h1>
 			</div>
 
       <div class="philosopy">
@@ -400,6 +401,45 @@
         <p><strong>Chess Fan:</strong> I am very interested in chess. As more of a hobby, I study and play chess whenever I have the time. I look up to <a href = "http://www.magnuscarlsen.com/">Magnus Carlsen</a> and hope to improve my skill immensely in the future.</p>
         <p><strong><a href = "http://pedropachuca2.com">Second Website</a></strong> </p>
       </div>
+    </section>
+
+
+    <section id="chess-section" class = "information">
+      <div  class="page-header"><h1 class="headers">Chess Widgets</h1></div>
+
+      <ul id="chess-tabs" class="nav nav-pills ">
+        <li class = "active"><a href="#playchess" data-toggle="tab">Play Chess</a></li>
+        <li><a href="#dailypuzzle" data-toggle="tab">Daily Puzzle</a></li>
+        <li><a href="#studychess" data-toggle="tab">Favorite Study Piece</a></li>
+        <li><a href="#chessgame" data-toggle="tab">Favorite Chess Game</a></li>
+        <li><a href="#livechess" data-toggle="tab">Watch Live Chess</a></li>
+      </ul>
+
+      <div class="tab-content">
+
+				<div class="tab-pane active" id="playchess">
+					  <iframe src='https://lichess.org?embed=" + document.domain + "' class='lichess-iframe' allowtransparency='true' frameBorder='0' style='width: 1016px; height: 650px;' title='Lichess on Pedros Website'></iframe>
+				</div>
+
+        <div class="tab-pane" id="dailypuzzle">
+					  <iframe src='https://lichess.org/training/frame?bg=light&theme=auto&embed=" + document.domain + "' class='lichess-training-iframe' allowtransparency='true' frameBorder='0' style='width: 224px; height: 264px;' title='Lichess Daily Puzzle on Pedro Website'></iframe>
+				</div>
+
+        <div class=" tab-pane" id="studychess">
+              <iframe width=600 height=371 src="https://lichess.org/study/embed/Of3mcPk8/cMO3pRXp" frameborder=0></iframe>
+        </div>
+
+        <div class="tab-pane" id="chessgame">
+              <iframe width=600 height=371 src="https://lichess.org/study/embed/Of3mcPk8/cMO3pRXp" frameborder=0></iframe>
+        </div>
+
+        <div class="tab-pane" id="livechess">
+              <iframe src='https://lichess.org/tv/frame?bg=light&theme=auto&embed=" + document.domain + "' class='lichess-tv-iframe' allowtransparency='true' frameBorder='0' style='width: 224px; height: 264px;' title='Lichess free online chess'></iframe>
+        </div>
+
+      </div>
+
+    </section>
 
 		<!-- Contact -->
 		<section id="contact-section" >
