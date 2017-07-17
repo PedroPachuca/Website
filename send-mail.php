@@ -1,7 +1,7 @@
 <?php
 //vars
 $subject = $_POST['subject'];
-$to = explode(',', $_POST['to'] );
+$to = 'pedritopachuca@me.com';
 
 $from = $_POST['email'];
 
@@ -17,8 +17,6 @@ $headers .= "From: <".$from. ">" ;
 
 
 //send for each mail
-foreach($to as $mail){
-   mail($mail, $subject, $msg, $headers);
-}
+mail($mail, $subject, $msg, $headers);
 
 ?>
