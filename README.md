@@ -1,4 +1,4 @@
-# Pedro Pachcua's Website
+# Pedro Pachuca's Website
 ## Personal Website started in 2016 and updated regularly
 
 Website with information about Pedro Pachuca
