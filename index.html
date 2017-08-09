@@ -650,7 +650,7 @@
       <div class="row">
         <!-- Form col -->
         <div class="span8">
-          <form class="well" id="contactForm" action="#" method="post">
+          <form class="well" id="contactForm" action="send-mail.php" method="post">
             <label>Your Name</label>
             <input type="text" class="input-xlarge" placeholder="Whats your name?" name="name" id="name">
             <label>Your Email</label>
@@ -659,11 +659,6 @@
             <input type="text" class="input-xlarge" placeholder="Have a website?" name="web" id="web">
             <label>Message</label>
             <textarea class="input-xxlarge"  rows="4"  name="comments"  id="comments"></textarea>
-            <!-- send mail configuration -->
-            <input type="hidden" value="pedritopachuca@me.com" name="to" id="to" />
-            <!--<input type="hidden" value="Website Message" name="subject" id="subject" />-->
-            <input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
-            <!-- ENDS send mail configuration -->
             <p><input type="button" value="Send" name="submit" id="submit" class="btn"/></p>
           </form>
           <div id="error" class="alert alert-error"></div>
