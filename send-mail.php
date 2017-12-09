@@ -4,7 +4,6 @@ $email_to = "pedritopachuca@me.com";
 $email_subject = "Website Contact Me";
 
 function died($error) {
-  // your error code can go here
   echo "We are very sorry, but there were error(s) found with the form you submitted. ";
   echo "These errors appear below.<br /><br />";
   echo $error."<br /><br />";
